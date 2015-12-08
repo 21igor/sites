@@ -1,0 +1,112 @@
+body {
+	color: #787878;
+	font-family: "Helvetica Neue", Helvetica, Arial;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+
+/**************************************
+	nav styles
+**************************************/
+
+
+
+/**************************************
+	container styles
+**************************************/    
+
+.container {
+	height: 100%;	
+	width: 80%;
+}
+
+.container.container-1 {
+	display: flex;	
+}
+
+ 
+
+/**************************************
+	Content styles
+**************************************/
+
+section.content h2 {
+	margin-bottom: 40px;
+	font-family: "Roboto Slab", serif;
+	font-size: 30px;
+}
+section.content p {
+	margin-bottom: 40px;
+	font-size: 16px;
+	font-weight: 300;
+}
+section.content p:last-child {
+	margin-bottom: 0;
+}
+
+/**************************************
+	Parralax styles
+**************************************/
+section.parallax {
+	position: relative;
+	height: auto;	
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+section.parallax:after {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.30);
+    z-index: 100;
+    content: ' ';
+}
+#intro h1 {
+	color: #fff;
+	position: relative;
+	z-index: 101;
+	font-size: 40px;
+	line-height: 1.5;
+	font-weight: 300;
+	text-align: center;
+	font-family: "Baron Neue","Helvetica","Arial";
+}
+
+#intro h2 {
+	color: #fff;
+	position: relative;
+	z-index: 101;
+	font-size: 36px;
+	line-height: 1.5;
+	font-weight: 400;
+	text-align: center;
+	font-family: "Baron Neue", "Helvetica","Arial";
+}
+
+
+/**************************************
+	Parralax blocks
+**************************************/
+section.parallax.background-1 {
+	background-image: url("../images/bg2.jpg");		
+	height: 100%;
+}
+
+.flex {
+	text-align: center;  	
+	margin:auto;
+}
+
+.table > thead > tr > th {
+	text-align: center;
+	vertical-align: middle !important;
+	font-weight: 700;
+}
+
